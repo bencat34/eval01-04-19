@@ -1,0 +1,65 @@
+.imgLogo{
+  max-height: 70px;
+  max-width: 100px;
+}
+#navbarSupportedContent{
+  background-image: linear-gradient(blue, yellow);
+  
+}
+.navbar{
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+}
+.container{
+  height: 50vw;
+  width: 30vw;
+  margin-top: 30px;
+}
+.description {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 30% 30% 30%;
+  grid-gap: 15px; }
+
+#body{
+  z-index: 0;
+  background-image: linear-gradient(90deg, blue, yellow,red);
+}
+.central-top {
+  display: grid;
+  grid-template-columns: 80% 20%; }
+
+input[type=search] {
+  width: 80%;
+  border-radius: 18px; }
+
+.btn-light {
+  border-radius: 15px; }
+
+.central-creation {
+
+  display: grid;
+  margin: 10px;
+  grid-template-columns: 20% 75%;
+  justify-content: space-between; }
+
+.description {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 30% 30% 30%;
+  grid-gap: 15px; }
+
+.description > figure >a> img {
+ 
+  width: 100%;
+  height: 231px;
+  min-height: 100%;
+  border: 10px double #0f024d;
+  object-fit: cover;
+  object-position: top; }
+figcaption {
+  text-align: center; }
+a{
+  color: black;
+}
